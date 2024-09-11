@@ -1,0 +1,47 @@
+/* CreateForm.css */
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+form:hover {
+  background-color: lightgray; /* Dark grey background color on hover */
+  transform: scale(1.05); /* Slightly scale up the form on hover */
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* CreateForm.css */
+
+/* ... (previous styles) */
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s; /* Add a transition for background color */
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 44, 44); /* Darker blue background color on hover */
+}
+
+p.error {
+  color: red;
+}

@@ -1,0 +1,75 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info p {
+    margin-right: 10px;
+  }
+  
+  .user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+/* Navbar.css 
+
+ Normal state styles for links 
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+ Hover effect for links 
+.navbar a:hover {
+  color: #007bff;  Change text color on hover 
+  transform: scale(1.1);  Scale up the link on hover 
+}*/
+/* Navbar.css */
+
+/* Normal state styles for links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Normal state styles for username */
+.navbar .user-info {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+  color: #314c4d; /* Change text color on hover */
+  transform: scale(1.1); /* Scale up the link on hover */
+}
+
+/* Hover effect for username */
+.navbar:hover .user-info {
+  transform: scale(1.1); /* Scale up the username container on hover */
+}
+
+
+
+  

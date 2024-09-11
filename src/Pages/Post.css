@@ -1,0 +1,65 @@
+/* Post.css */
+
+/* Container styles */
+.post-container {
+    background-color: #f5f5f5; /* Grey background */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Body styles */
+  .body {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666; /* Grey text color */
+  }
+  
+  /* Like button styles */
+  .like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #666; /* Grey like button color */
+    margin-right: 10px;
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .like-button:hover {
+    color: #007bff; /* Blue color on hover */
+  }
+  
+  /* Likes count styles */
+  .likes-count {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #333; /* Slightly darker grey text color */
+  }
+  .feed-title {
+    font-size: 32px; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin for separation */
+    color: #333; /* Dark grey text color */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing for style */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+  }
+  
